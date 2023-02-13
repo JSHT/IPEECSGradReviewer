@@ -30,8 +30,9 @@ function FetchGradeTable() {
     }
     cookieHeader += `${cookies[0].name}=${cookies[0].value}; `;
     console.log(cookieHeader);
-    let url =
-      "https://cis.ncu.edu.tw/ScoreInquiries/student/student_record.php";
+//     let url =
+//       "https://cis.ncu.edu.tw/ScoreInquiries/student/student_record.php";
+    let url = "https://rapid-moon-d0cd.jsht-lazy-mode.workers.dev/?https://portal.ncu.edu.tw/system/162"
     const headers = new Headers();
     headers.append("Cookie", cookieHeader);
 

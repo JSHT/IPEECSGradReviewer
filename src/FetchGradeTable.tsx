@@ -32,7 +32,7 @@ function FetchGradeTable() {
     console.log(cookieHeader);
 //     let url =
 //       "https://cis.ncu.edu.tw/ScoreInquiries/student/student_record.php";
-    let url = "https://rapid-moon-d0cd.jsht-lazy-mode.workers.dev/?https://portal.ncu.edu.tw/system/162"
+    let url = "https://rapid-moon-d0cd.jsht-lazy-mode.workers.dev/?https://portal.ncu.edu.tw/system/162/go"
     const headers = new Headers();
     headers.append("Cookie", cookieHeader);
 
